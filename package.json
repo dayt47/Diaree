@@ -1,0 +1,14 @@
+{
+  "name": "diaree",
+  "version": "1.0.0",
+  "description": "A simple diary react app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "install": "cd server && npm install && cd ../client && npm install && echo \"\u001b[1;32mIf you want to run the web application, type 'npm run start'\u001b[0m\"",
+    "start": "cd server && node index.js & cd client && npm run dev"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
